@@ -33,7 +33,7 @@
             "P3",
             "P4"
         ],
-        "defaultValue": "B1",
+        "defaultValue": "F1",
         "metadata": {
           "description": "The SKU of App Service Plan."
         }
@@ -92,22 +92,6 @@
             "linuxFxVersion": "[parameters('linuxFxVersion')]"
           }
         },
-        "resources": [
-            {
-              "type": "sourcecontrols",
-              "apiVersion": "2020-06-01",
-              "name": "web",
-              "location": "[parameters('location')]",
-              "dependsOn": [
-                "[resourceId('Microsoft.Web/sites', parameters('webAppName'))]"
-              ],
-              "properties": {
-                "repoUrl": "[parameters('repoUrl')]",
-                "branch": "[parameters('repoBranch')]",
-                "isManualIntegration": true
-              }
-            }
-          ]
       },
       {
         "type": "Microsoft.Web/sites/config",

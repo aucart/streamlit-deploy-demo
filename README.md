@@ -1,6 +1,6 @@
 # Documentation
 
-The blog post at the origin of this repo [can be found here on my website](https://benalexkeen.com/deploying-streamlit-applications-with-azure-app-services/).
+The blog post at the origin of this repo [can be found here](https://benalexkeen.com/deploying-streamlit-applications-with-azure-app-services/).
 
 # Deployment
 
