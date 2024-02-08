@@ -33,7 +33,7 @@
         "P3",
         "P4"
       ],
-      "defaultValue": "F1",
+      "defaultValue": "B1",
       "metadata": {
         "description": "The SKU of App Service Plan."
       }
@@ -47,7 +47,7 @@
     },
     "repoUrl": {
       "type": "string",
-      "defaultValue": "https://github.com/unhurd/unhurd-streamlit-app-demo.git",
+      "defaultValue": "https://github.com/{UPDATEHERE}.git",
       "metadata": {
         "description": "Git Repo URL"
       }

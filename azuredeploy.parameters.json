@@ -6,13 +6,13 @@
             "value": "streamlit-azure-app-services-example"
         },
         "sku": {
-            "value": "B1"
+            "value": "F1"
         },
         "linuxFxVersion": {
-            "value": "PYTHON|3.7"
+            "value": "PYTHON|3.10"
         },
         "repoUrl": {
-            "value": "https://github.com/unhurd/unhurd-streamlit-app-demo.git"
+            "value": "https://github.com/{UPDATEHERE}.git"
         },
         "repoBranch": {
             "value": "main"
